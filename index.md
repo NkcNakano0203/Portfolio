@@ -20,6 +20,6 @@
 
 
 ### 触ったことのあるライブラリ
-- UniRx(イベント管理用)
-- UniTask(非同期処理用)
-- DoTween(Tween用)
+- UniRx (イベント管理用)
+- UniTask   (非同期処理用)
+- DoTween   (Tween用)
