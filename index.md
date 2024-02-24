@@ -44,9 +44,8 @@
 
 # 作品紹介
 ## 曲げてすすめ！レーザーダンジョン
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vAu2sqNFRJk?si=jxL4nvV1QPAkAsC1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vAu2sqNFRJk" title="曲げて進め！レーザーダンジョン" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 日本ゲーム大賞2023アマチュア部門とゲームクリエイター甲子園2023に向けて制作した作品です。  
 ゲームクリエイターズギルドEXPO2023ではB.B.スタジオ賞に選ばれました。
@@ -61,6 +60,7 @@
 
 ## むしりとれ！雑草ハンター
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C_zwqqA4tVk" title="むしりとれ！雑草ハンター" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 「GlobalGameJam」という三日間のイベント(作業時間は48時間)で制作した作品です。
 プログラマー2人とプランナー1人のチームで制作しました。
@@ -88,6 +88,7 @@
 
 ## アマツバメ
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cyGH6isQOco?si=ej6P3KKHTXOzrlKr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 チーム人数 6人  
 制作期間 2ヵ月半
