@@ -44,7 +44,7 @@
 
 # 作品紹介
 ## 曲げてすすめ！レーザーダンジョン
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vAu2sqNFRJk?si=jxL4nvV1QPAkAsC1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vAu2sqNFRJk?si=jxL4nvV1QPAkAsC1?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 日本ゲーム大賞2023アマチュア部門とゲームクリエイター甲子園2023に向けて制作した作品です。  
@@ -59,7 +59,7 @@
 ステージの進行制御、UI、セーブデータ
 
 ## むしりとれ！雑草ハンター
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C_zwqqA4tVk" title="むしりとれ！雑草ハンター" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C_zwqqA4tVk?rel=0" title="むしりとれ！雑草ハンター" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 「GlobalGameJam」という三日間のイベント(作業時間は48時間)で制作した作品です。
@@ -73,7 +73,7 @@
 プレイヤーの操作(雑草を抜く、強化)、タイトル画面
 
 ## スライムラッシュ
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0nTE3o13VbQ" title="スライムラッシュ！" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0nTE3o13VbQ?rel=0" title="スライムラッシュ！" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 日本ゲーム大賞2022アマチュア部門に向けて制作した作品です。
@@ -87,7 +87,7 @@
 敵とボスの行動管理、タイトル、リザルト画面
 
 ## アマツバメ
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cyGH6isQOco?si=ej6P3KKHTXOzrlKr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cyGH6isQOco?si=ej6P3KKHTXOzrlKr?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 チーム人数 6人  
