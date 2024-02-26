@@ -16,6 +16,7 @@
 |C++|★★★☆☆|2年|
 |Unity|★★★★☆|3年|
 |C#__WPF|★★★☆☆|1年|
+|GitHub|★★★☆☆|3年|
 
 
 ## 触ったことのあるライブラリ
@@ -57,7 +58,7 @@
 
 主な担当箇所  
 ステージの進行制御、UI、セーブデータ  
-[ゲームリンク](URL "https://gameparade.creators-guild.com/works/917")
+[ゲームリンク](https://gameparade.creators-guild.com/works/917)
 
 
 ## むしりとれ！雑草ハンター
@@ -66,7 +67,6 @@
 
 「GlobalGameJam」という三日間のイベント(作業時間は48時間)で制作した作品です。
 プログラマー2人とプランナー1人のチームで制作しました。  
-[ゲームリンク](URL "https://v3.globalgamejam.org/2023/games/%E3%82%80%E3%81%97%E3%82%8A%E3%81%A8%E3%82%8C%EF%BC%81%E9%9B%91%E8%8D%89%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%EF%BC%81-9")
 
 チーム人数 3人  
 制作期間 2日
@@ -74,6 +74,7 @@
 主な担当箇所  
 プレイヤーの操作(雑草を抜く、強化)、タイトル画面
 
+[ゲームリンク](https://v3.globalgamejam.org/2023/games/%E3%82%80%E3%81%97%E3%82%8A%E3%81%A8%E3%82%8C%EF%BC%81%E9%9B%91%E8%8D%89%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%EF%BC%81-9)
 
 ## スライムラッシュ
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0nTE3o13VbQ?rel=0" title="スライムラッシュ！" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
