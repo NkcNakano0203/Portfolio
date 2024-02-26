@@ -26,7 +26,6 @@
 ## 過去参加イベント
 
 
-
 |イベント名|期間|
 |-|-|
 |学内ゲームジャム 参加|7日|
@@ -34,7 +33,7 @@
 |第29回 FUKUOKAゲームインターンシップ 参加|1日|
 |GlobalGameJam2023 参加|3日|
 |GAIRA GAME JAM 参加|1日|
-|TGS2023 学校ブース 展示|2日|
+|東京ゲームショウ2023 学校ブース 展示|2日|
 |第６回 全国エンタメまつり 展示|1日|
 |ゲームクリエイター甲子園2023 B.B.スタジオ賞受賞|1日|
 
@@ -59,6 +58,7 @@
 主な担当箇所  
 ステージの進行制御、UI、セーブデータ
 
+
 ## むしりとれ！雑草ハンター
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C_zwqqA4tVk?rel=0" title="むしりとれ！雑草ハンター" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -72,6 +72,7 @@
 
 主な担当箇所  
 プレイヤーの操作(雑草を抜く、強化)、タイトル画面
+
 
 ## スライムラッシュ
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0nTE3o13VbQ?rel=0" title="スライムラッシュ！" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
