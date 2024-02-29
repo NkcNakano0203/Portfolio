@@ -58,7 +58,7 @@
 
 ### これまでに制作した作品数
 個人10作品 ： チーム10作品
-![alt text](Img/works.png)
+![alt text](Images/works.png)
 
 
 # 作品紹介
