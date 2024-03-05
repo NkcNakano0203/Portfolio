@@ -1,2 +1,3 @@
-# Portfolio
-ポートフォリオ/ https://nkcnakano0203.github.io/Portfolio/
+# ポートフォリオ
+ポートフォリオのリポジトリ
+ページリンク：https://nkcnakano0203.github.io/Portfolio/
