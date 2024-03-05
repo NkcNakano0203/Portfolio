@@ -3,6 +3,7 @@
 # はじめに
 閲覧頂きありがとうございます。  
 このページでは、これまで制作した作品の一部を紹介しています。  
+ソースコードは二次配布防止のため別途GoogleDriveからご覧ください。  
 
 # 自己紹介  
 名前：**中野創貴**  
@@ -37,6 +38,7 @@
 - [ライブラリ紹介](#ライブラリ紹介)
   - [UI遷移](#ui遷移)
   - [複数オブジェクトプール管理](#複数オブジェクトプール管理)
+- [書いた記事](#書いた記事)
 
 
 ## スキル
@@ -106,8 +108,6 @@
 
 
 [ゲームリンク](https://gameparade.creators-guild.com/works/917)  
-[ソースコードリンク](https://drive.google.com/drive/folders/1USkzE8ffkj-mzk2XhuQNEUKhmgDzkwJT?usp=sharing)
-
 
 ## スライムラッシュ！
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0nTE3o13VbQ?rel=0" title="スライムラッシュ！" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -118,7 +118,7 @@
 チーム人数：5人（プログラマー５）  
 制作期間：2022/2/15 ~ 2022/5/30（2か月）  
 開発環境：Unity(2020.3.5f1)、C#、GitHub、Sourcetree  
-ライブラリ：UniTask, UniRx, DOTween
+ライブラリ：UniTask, UniRx, DOTween  
 主な担当箇所：敵とボスの行動パターン、タイトル、リザルト画面
 
 ## 個人制作
@@ -133,15 +133,15 @@
 開発環境：Unity(2021.3.18f1)、C#、DSPAcion(SE制作ツール)、GitHub、Sourcetree  
 ライブラリ：UniRx,UniTask,DOTween
 
-[ソースリンク](https://drive.google.com/drive/folders/1fTAgSFtrlmEBGP6Q8GoPFqn4t-VqizuZ?usp=sharing)
 
 # ライブラリ紹介
 ## UI遷移
 <video controls width="560" height="315" src="UILib.mp4" title="Title"></video>
 
 
-アウトゲームのUI管理を共通化するために作ったライブラリです。
+アウトゲームのUI管理を共通化するために作ったライブラリです。  
 制作期間：2022/12/2 ~ 2022/12/19（2週間）  
+必須ライブラリ：UniTask
 
 ![UIScreen](Images/UIScreen.png)
 抽象クラスを使い共通化しています。    
@@ -154,3 +154,6 @@ Stackを用いて前のスクリーンに戻る機能を実装しています。
 ## 複数オブジェクトプール管理
 
 Unityのオブジェクトプールを一元管理するために作ったライブラリです。
+
+# 書いた記事
+[学生がGitHubEducationを使ってGitHubCopilotを導入した話](https://qiita.com/NkcNakano0203/items/4f2e0b8cdbdf90d26734)
