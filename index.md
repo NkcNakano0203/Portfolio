@@ -151,16 +151,20 @@
 ![ScreenManager](Images/ScreenManager.png)
 Stackを用いて前のスクリーンに戻る機能を実装しています。
 
+[リポジトリリンク](https://github.com/NkcNakano0203/nknUILib)
+
 ## 複数オブジェクトプール管理
 ![ObjectPoolLibPreview](Images/ObjectPoolLib.png)
 
-Unityのオブジェクトプールを一元管理するために作ったライブラリです。
+Unityのオブジェクトプールを一元管理するために作ったライブラリです。  
 
 ![ObjectPoolLibSource](Images/PoolLibSource.png)
-メソッドの使い方をUnityのInstantiateに近くすることで初めてでも触りやすくすることにこだわりました。
+メソッドの使い方をUnityのInstantiateに近くすることで初めてでも触りやすくすることにこだわりました。  
 
 ![ObjectPoolLibSource2](Images/ObjectPoolLibSource2.png)
-呼び出し元にオブジェクトを返す際に使い終わった時の処理をパッケージングすることで、呼び出し側はメソッド呼び出しするだけで返却できるようにしました。
+呼び出し元にオブジェクトを返す際に使い終わった時の処理をパッケージングすることで、呼び出し側はメソッド呼び出しするだけで返却できるようにしました。  
+
+[リポジトリリンク](https://github.com/NkcNakano0203/nknObjectPool)
 
 
 # 書いた記事
