@@ -134,8 +134,8 @@ UnityのScene読み込み時のイベントにメソッド登録して参照が�
 主な担当箇所：敵とボスの行動パターン、タイトル、リザルト画面
 
 
-こだわった点：
-![DamageStruct](Images/DamageStruct.png)
+こだわった点：  
+![DamageStruct](Images/DamageStruct.png)  
 ダメージ用の構造体を作ってダメージの受け渡しを楽に細かくできるようにしました。
 
 ## 個人制作
