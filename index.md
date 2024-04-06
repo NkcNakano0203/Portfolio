@@ -107,6 +107,18 @@
 主な担当箇所：ステージの進行制御、UI、セーブデータ
 
 
+こだわった点：
+加算シーンを用いてステージSceneと管理Sceneを分けることで、
+同時に作業できるようにしたり、共通するものをまとめることができました。
+
+課題：
+Scene間のデータのやり取りを何を使って行うか
+
+解決法：
+ScriptableObjectだと削除されずに残ってしまうので、
+UnityのScene読み込み時のイベントにメソッド登録して参照が残らないようにして、
+参照関係を綺麗にした.
+
 [ゲームリンク](https://gameparade.creators-guild.com/works/917)  
 
 ## スライムラッシュ！
@@ -121,6 +133,11 @@
 ライブラリ：UniTask, UniRx, DOTween  
 主な担当箇所：敵とボスの行動パターン、タイトル、リザルト画面
 
+
+こだわった点：
+![DamageStruct](Images/DamageStruct.png)
+ダメージ用の構造体を作ってダメージの受け渡しを楽に細かくできるようにしました。
+
 ## 個人制作
 ## ロボットファクトリー
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RBAzS3qyMlc" title="ロボットファクトリー" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -134,6 +151,16 @@
 ライブラリ：UniRx,UniTask,DOTween
 
 
+こだわった点：
+出荷される箱などアニメーションにイージングをつけてメリハリのある動きになるよう意識しました。
+単一責任原則を意識してクラスの役割をできる限り細かくしました。
+
+課題：
+制作期間が短くゲームの遊び部分(難易度の緩急等)を作り込むことができなかった。
+
+解決法：
+後からでも変更できるように、データを分離したりして柔軟に対応できる作りにする。
+
 # ライブラリ紹介
 ## UI遷移
 <video controls width="560" height="315" src="UILib.mp4" title="Title"></video>
@@ -145,11 +172,12 @@
 
 ![UIScreen](Images/UIScreen.png)
 抽象クラスを使い共通化しています。    
+
 ![UIScreen2](Images/UIScreen2.png)  
-メソッドの実装は継承先に任せることで汎用性を確保しています。
+メソッドの実装は継承先に任せることで汎用性を確保しました。
 
 ![ScreenManager](Images/ScreenManager.png)
-Stackを用いて前のスクリーンに戻る機能を実装しています。
+Stackを用いて前のスクリーンに戻る機能を実装しました。
 
 [リポジトリリンク](https://github.com/NkcNakano0203/nknUILib)
 
