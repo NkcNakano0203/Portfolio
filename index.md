@@ -163,7 +163,7 @@ UnityのScene読み込み時のイベントにメソッド登録して参照が�
 
 # ライブラリ紹介
 ## UI遷移
-<video controls width="560" height="315" src="UILib.mp4" title="Title"></video>
+<video controls width="560" height="315" src="Images/UILib.mp4" title="Title"></video>
 
 
 アウトゲームのUI管理を共通化するために作ったライブラリです。  
