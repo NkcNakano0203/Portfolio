@@ -34,6 +34,7 @@
 **シーン管理**  
 加算シーンを用いてステージSceneと管理Sceneを分けることで、
 同時に作業できるようにしたり、共通するものをまとめることができました。  
+
 ![AdditiveScene](Images/AdditiveScene.png)
 
 **UIの実装**  
