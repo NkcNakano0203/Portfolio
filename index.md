@@ -33,9 +33,9 @@
     - [曲げてすすめ！レーザーダンジョン](#曲げてすすめレーザーダンジョン)
     - [スライムラッシュ！](#スライムラッシュ)
   - [個人制作](#個人制作)
-    - [ロボットファクトリー](#ロボットファクトリー)
+    - [CoinRush3D](#CoinRush3D)
 - [ライブラリ紹介](#ライブラリ紹介)
-  - [UI遷移](#ui遷移)
+  - [テキストアセット生成ツール](#テキストアセット生成ツール)
   - [複数オブジェクトプール管理](#複数オブジェクトプール管理)
 - [書いた記事](#書いた記事)
 
@@ -148,47 +148,75 @@ ServiceLocator等を作成しUnityに依存しないようにインスタンス�
 ダメージ用の構造体を作ってダメージの受け渡しを楽に細かくできるようにしました。
 
 ## 個人制作
-## ロボットファクトリー
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RBAzS3qyMlc" title="ロボットファクトリー" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## CoinRush3D
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OkVRoHycHWY" title="CoinRush3D" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-２年生の時に２週間で制作した個人制作作品です。
+4年生の時に10日間で制作した個人制作作品です。
+
+### [詳細な解説](Pages/CoinRush3D.md)
+
+個人制作  
+**制作期間**：2024/6/16 ~ 2022/12/25（10日間）  
+**開発環境**：Unity6Preview(6000.0.5f1)、C#、DSPAcion(SE制作ツール)、GitHub、Sourcetree  
+**ライブラリ**：R3,UniTask,DOTween
 
 
-個人制作
-制作期間：2022/12/2 ~ 2022/12/19（2週間）  
-開発環境：Unity(2021.3.18f1)、C#、DSPAcion(SE制作ツール)、GitHub、Sourcetree  
-ライブラリ：UniRx,UniTask,DOTween
+**こだわった点：**  
+プレイヤーの移動処理を作るにあたって以下の２点を最初に決めて作り始めました。  
 
+- タグ比較以外の汎用的な接地判定を用いること
+- 斜めの床でずり落ちたり、移動速度が変わらないようにすること
 
-**こだわった点：**
-出荷される箱などアニメーションにイージングをつけてメリハリのある動きになるよう意識しました。
-単一責任原則を意識してクラスの役割をできる限り細かくしました。
+**プレイヤーの接地判定**  
+![CheckGround](Images/ChackGround.png)
 
-**課題：**
-制作期間が短くゲームの遊び部分(難易度の緩急等)を作り込むことができなかった。
+- タグ比較以外の汎用的な接地判定を用いること  
 
-**解決法：**
-後からでも変更できるように、データを分離したりして柔軟に対応できる作りにする。
+タグ比較では地面オブジェクトに毎回タグ設定する手間がかかってしまうので、レイによるオブジェクトの取得と、法線の比較で接地判定を行うようにしました。
+
 
 # ライブラリ紹介
-## UI遷移
-<video controls width="560" height="315" src="Images/UILib.mp4" title="Title"></video>
+## テキストアセット生成ツール
+![CharExtranctionTool](Images/CharExtranctionTool.png)
+![exportedTextFile](Images/exportedTextFile.png)
+
+TMProのFontAssetCreatorで文字を被り無しで指定していく作業を効率化するために作ったツールです。
+
+**制作期間**：3時間   
+**こだわった点**  
+
+メソッドの速さならHashSetの方が速くはありますがSoretedSetを使うことで、テキストファイル作った時の可読性を高くしました。
+
+`CharExtractionTool.cs：60行目`  
+```C#
+private void CreateCharacter()
+{
+    // SortedSetを使い、使用する文字の重複を省く
+    SortedSet<char> sortedSet = new();
+    foreach (var text in stringList)
+    {
+        foreach (char c in text)
+        {
+            sortedSet.Add(c);
+        }
+    }
+```
+
+拡張メソッドを用いることでコードをシンプルにして可読性を高めることができました。
+
+`SerializedPropertyExtension.cs：8行目`  
+```C#
+public static class SerializedPropertyExtension
+{
+    public static string[] ToStringArray(this SerializedProperty serializedProperty)
+```
+メソッド使用時のコード
+```C#
+stringList = stringArray.ToStringArray();
+```
 
 
-アウトゲームのUI管理を共通化するために作ったライブラリです。  
-制作期間：2022/12/2 ~ 2022/12/19（2週間）  
-必須ライブラリ：UniTask
-
-![UIScreen](Images/UIScreen.png)
-抽象クラスを使い共通化しています。    
-
-![UIScreen2](Images/UIScreen2.png)  
-メソッドの実装は継承先に任せることで汎用性を確保しました。
-
-![ScreenManager](Images/ScreenManager.png)
-Stackを用いて前のスクリーンに戻る機能を実装しました。
-
-[リポジトリリンク](https://github.com/NkcNakano0203/nknUILib)
+[リポジトリリンク](https://github.com/NkcNakano0203/CharExtractionTool)
 
 ## 複数オブジェクトプール管理
 ![ObjectPoolLibPreview](Images/ObjectPoolLib.png)
