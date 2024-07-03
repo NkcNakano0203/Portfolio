@@ -33,7 +33,7 @@
     - [曲げてすすめ！レーザーダンジョン](#曲げてすすめレーザーダンジョン)
     - [スライムラッシュ！](#スライムラッシュ)
   - [個人制作](#個人制作)
-    - [CoinRush3D](#CoinRush3D)
+    - [コインラッシュ](#コインラッシュ)
 - [ライブラリ紹介](#ライブラリ紹介)
   - [テキストアセット生成ツール](#テキストアセット生成ツール)
   - [複数オブジェクトプール管理](#複数オブジェクトプール管理)
@@ -149,7 +149,7 @@ ServiceLocator等を作成しUnityに依存しないようにインスタンス�
 ダメージ用の構造体を作ってダメージの受け渡しを楽に細かくできるようにしました。
 
 ## 個人制作
-## CoinRush3D
+## コインラッシュ
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OkVRoHycHWY" title="CoinRush3D" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 4年生の時に10日間で制作した個人制作作品です。
