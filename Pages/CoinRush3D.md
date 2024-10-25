@@ -38,20 +38,16 @@ Unityちゃんを操作して制限時間内にたくさんコインを集める
 ```C#
 internal bool CheckGround(out RaycastHit[] results)
 {
-	Vector3 startPos = transform.position;
-	startPos.y -= m_rayOffsetY;
-	Debug.DrawRay(startPos, new Vector3(0, -m_rayLength, 0), Color.red, 1.0f);
-	results = Physics.RaycastAll(startPos, Vector3.down, m_rayLength);
+    Vector3 startPos = transform.position;
+    startPos.y -= rayOffsetY;
+    results = Physics.BoxCastAll(startPos, boxSize, Vector3.down, Quaternion.identity, rayLength);
 
-	// レイが当たっていない場合終了
-	if (results.Length == 0) return false;
-
-	// 法線の内積で相対的な角度の取得
-	float normalDot = Vector3.Dot(m_hitObjectList[0].normal, Vector3.up);
-
-	// 急すぎる床は無視する
-	return normalDot > m_slopeThreshold;
+    return results.Length != 0;
 }
+
+Vector3 onPlane = Vector3.ProjectOnPlane(inputDir, hitObjectList[0].normal);
+moveForward = Vector3.Scale(moveForward, onPlane);
+
 ```
 
 - 斜めの床でずり落ちたり、移動速度が変わらないようにすること
